@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Lusitana|Ruda);
+
+body {
+	margin:0;
+	padding: 0;
+}
+
+#heading {
+	width:200px;
+	height: 100px;
+	margin:auto;
+	padding-top: 20%;
+	font-family: 'Lusitana', serif;
+	font-size: 48pt;
+}
+
+#subheading {
+	font-family: 'Ruda', sans-serif;
+	font-size: 18pt;
+	width:400px;
+	height: 50px;
+	margin: auto;
+}
