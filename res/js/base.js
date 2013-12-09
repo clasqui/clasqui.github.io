@@ -8,13 +8,13 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 			$("#contact").fadeIn();
-			$(".mail").fadeIn("slow", function(){
+			$(".mail").css('visibility','visible').hide().fadeIn('slow', function(){
 				setTimeout(function(){
-					$(".github").fadeIn("slow", function(){
+					$(".github").css('visibility','visible').hide().fadeIn('slow', function(){
 						setTimeout(function(){
-							$(".name").fadeIn("slow", function(){
+							$(".name").css('visibility','visible').hide().fadeIn('slow', function(){
 									setTimeout(function(){
-										$(".username").fadeIn("slow");
+										$(".username").css('visibility','visible').hide().fadeIn('slow');
 								}, 500)
 							});
 						}, 500)
