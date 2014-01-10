@@ -69,13 +69,13 @@ a:active {
 	color: #CD853F;
 }
 
-#downBt {
+#goBt {
 	margin: auto;
 	text-align: center;
 
 }
 
-#goBt {
+#backBt {
 	margin: auto;
 	text-align: center;
 }
