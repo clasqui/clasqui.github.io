@@ -3,13 +3,11 @@
 body {
 	margin:0;
 	padding: 0;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 #container {
-	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 .text-body{
@@ -83,4 +81,9 @@ a:active {
 .wrap {
 	max-width: 900px;
 	margin:auto;
+}
+
+.imgContainer {
+	text-align: center;
+	padding: 10px;
 }
