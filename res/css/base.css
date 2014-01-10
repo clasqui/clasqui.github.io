@@ -3,20 +3,38 @@
 body {
 	margin:0;
 	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
-#heading {
+#container {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.text-body{
+	font-family: 'Ruda', sans-serif;
+	font-size: 14pt;
+}
+
+.text-title{
+	font-family: 'Lusitana', serif;
+	font-size: 48pt;
+}
+
+.link-menu{
+
+}
+
+.heading {
 	width:200px;
 	height: 100px;
 	margin:auto;
 	padding-top: 15%;
-	font-family: 'Lusitana', serif;
-	font-size: 48pt;
 	text-align: center;
 }
 
 #subheading {
-	font-family: 'Ruda', sans-serif;
 	font-size: 18pt;
 	width: 400px;
 	height: 50px;
@@ -25,7 +43,6 @@ body {
 }
 
 #contact {
-	font-family: 'Ruda', sans-serif;
 	font-size: 14pt;
 	width: 1000px;
 	height: 50px;
@@ -50,4 +67,20 @@ a:hover {
 
 a:active {
 	color: #CD853F;
+}
+
+#downBt {
+	margin: auto;
+	text-align: center;
+
+}
+
+#goBt {
+	margin: auto;
+	text-align: center;
+}
+
+.wrap {
+	max-width: 900px;
+	margin:auto;
 }
