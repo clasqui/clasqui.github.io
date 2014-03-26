@@ -4,6 +4,16 @@
 	<title>Hola</title>
 	<link rel="stylesheet" type="text/css" href="res/css/base.css" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49377060-1', 'hulehule20.github.io');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 <div id="container">
@@ -17,24 +27,25 @@ My name is <span class="special">Marc</span> and I program and design <span clas
 <div id="contact" style="display: none;" class="text-body">
 <span style="visibility: hidden;" class="mail" title="Email"><a href="mailto:hulehule20@gmail.com">hulehule20@gmail.com</a></span> | <span style="visibility: hidden;" class="github" title="Github"><a href="http://www.github.com/hulehule20">
 Hulehule20 (Marc Clasc&agrave;)</a></span> | <span style="visibility: hidden;" class="name" title="LinkedIn"><a href="http://www.linkedin.com/in/mclasca">Marc Clasc&agrave; Ram&iacute;rez</a></span> | <span style="visibility: hidden;" class="username" title="Twitter"><a href="http://www.twitter.com/hulehule20">@hulehule20</a></span></div>
-<div id="goBt" style="visibility: hidden;"><a class="link-menu text-body" href="#bio"><span class="special">Bio</span></a><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link-menu text-body" href="#form"><span class="special">Contact Form</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link-menu text-body" href="#work"><span class="special">Work</span></a>--></div>
+<div id="goBt" style="visibility: hidden;"><a class="link-menu text-body" href="#bio"><span class="special">Bio</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link-menu text-body" href="#form"><span class="special">Contact Form</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link-menu text-body" href="#work"><span class="special">Work</span></a></div>
 
 
 </div>
 <div id="bio">
 
 
-<div class="text-title heading">Bio</div>
-<div class="text-body wrap">I live and I was born in <a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d9979!2d2.3262615!3d41.5853937">La Roca del Vall&egrave;s</a>, a little town near Barcelona, in Catalunya. I was born the 4th March 1998 and I started programming when I was 12 with my first webpages.<br>From that moment I haven't stopped learng new programming languages and new technologies and getting experience.</div>
+<div class="text-title heading" style="padding-top: 5%;">Bio</div>
+<div class="text-body wrap">I was born and I currently live in <a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d9979!2d2.3262615!3d41.5853937">La Roca del Vall&egrave;s</a>, a little town near Barcelona, in Catalunya. I was born the 4th March 1998 and I started programming when I was 12 with my first webpages.<br>From that moment I haven't stopped learng new programming languages and new technologies and getting experience.<br>
+Want to hire me? Go to the <a href="#form">contact form</a>.
+</div>
 <div id="backBt"><a href="#home"><span class="special text-body">Go Back</span></a></div>
 
 
 </div>
-<!-- TODO: Complete
 <div id="form">
 
 
-<div class="text-title heading" style="padding-top: 5%;">
+<div class="text-title heading" style="padding-top: 5%; width: 400px;">
 Contact Form
 </div>
 
@@ -43,13 +54,12 @@ Contact Form
 <div id="work">
 
 
-<div class="text-title heading">
+<div class="text-title heading" style="padding-top: 10%;">
 Work
 </div>
 
 
 </div>
--->
 </div>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -63,10 +73,16 @@ Work
 
 	$("#bio").width($(window).width);
 	$("#bio").height($(window).height);
+
+	$("#form").width($(window).width);
+	$("#form").height($(window).height);
+
+	$("#work").width($(window).width);
+	$("#work").height($(window).height);
 	
 	$('#container').fullContent({ 
   		stages: 'div', 
-  		mapPosition: [{v: 1, h: 1}, {v: 2, h: 1}], 
+  		mapPosition: [{v: 1, h: 1}, {v: 2, h: 1}, {v: 3, h: 1 }, {v: 1, h:2 }], 
   		stageStart: 1, 
   		speedTransition: 800, 
   		idComplement: 'page_' 
