@@ -3,7 +3,7 @@
 <head>
 	<title>Hola</title>
 	<link rel="stylesheet" type="text/css" href="res/css/base.css" />
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,54 +16,11 @@
 </script>
 </head>
 <body>
-<div id="container">
-<div id="home">
 
 
-<div id="heading" class="text-title heading"><span class="htext" title="'Hola' means 'Hello' in catalan">Hola</span></div>
-<div id="subheading" style="display: none;" class="text-body">
-My name is <span class="special">Marc</span> and I code and design <span class="special">websites</span>, <span class="special">webapps</span> and <span class="special">iOS apps</span>
-</div>
-<div id="contact" style="display: none;" class="text-body">
-<span style="visibility: hidden;" class="mail" title="Email"><a href="mailto:hulehule20@gmail.com">hulehule20@gmail.com</a></span> | <span style="visibility: hidden;" class="github" title="Github"><a href="http://www.github.com/hulehule20">
-Hulehule20 (Marc Clasc&agrave;)</a></span> | <span style="visibility: hidden;" class="name" title="LinkedIn"><a href="http://www.linkedin.com/in/mclasca">Marc Clasc&agrave; Ram&iacute;rez</a></span> | <span style="visibility: hidden;" class="username" title="Twitter"><a href="http://www.twitter.com/hulehule20">@hulehule20</a></span></div>
-<div id="goBt" style="visibility: hidden;"><a class="link-menu text-body" href="#bio"><span class="special">Bio</span></a></div>
 
-
-</div>
-<div id="bio">
-
-
-<div class="text-title heading" style="padding-top: 5%;">Bio</div>
-<div class="text-body wrap">I was born and I currently live in <a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d9979!2d2.3262615!3d41.5853937">La Roca del Vall&egrave;s</a>, a little town near Barcelona, in Catalunya. I was born the 4th March 1998 and I started programming when I was 12 with my first webpages.<br>From that moment I haven't stopped learng new programming languages and new technologies and getting experience.
-</div>
-<div id="backBt"><a href="#home"><span class="special text-body">Go Back</span></a></div>
-
-
-</div>
-</div>
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="res/js/scrollTo.min.js"></script>
-<script type="text/javascript" src="res/js/jquery.fullContent.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="res/js/base.js"></script>
-<script type="text/javascript">
 
-	$("#home").width($(window).width);
-	$("#home").height($(window).height);
-
-	$("#bio").width($(window).width);
-	$("#bio").height($(window).height);
-
-	
-	$('#container').fullContent({ 
-  		stages: 'div', 
-  		mapPosition: [{v: 1, h: 1}, {v: 2, h: 1}], 
-  		stageStart: 1, 
-  		speedTransition: 800, 
-  		idComplement: 'page_' 
-	});
-
-</script>
 </body>
 </html>
